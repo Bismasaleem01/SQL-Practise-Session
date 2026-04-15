@@ -72,8 +72,94 @@ By completing this session, I gained hands-on experience in:
 - Applying subqueries in real scenarios
 - Managing data using CRUD operations
 
+
+# 📘 Day 02 - SQL Practice Session 🚀
+
+## 📌 Project Overview
+This session focuses on strengthening relational database concepts by introducing multiple tables and establishing relationships between them. The main objective was to understand how data is connected using keys and how to retrieve meaningful insights using JOINs and aggregations.
+
 ---
+
+## 🧠 Topics Covered (Day 02)
+
+- Creating multiple tables
+- Establishing relationships between tables
+- ALTER TABLE (adding new column)
+- Updating records with foreign key values
+- JOIN operations:
+  - INNER JOIN
+  - LEFT JOIN
+- GROUP BY clause
+- Aggregate functions:
+  - COUNT()
+  - AVG()
+- Filtering grouped data using HAVING
+- Sorting results using ORDER BY
+- Using LIMIT to fetch top results
+
+---
+
+## 🏗️ Database Structure
+
+### 📊 Table: Employees
+- id (Primary Key)
+- department_id (Foreign Key concept)
+- name
+- salary
+- department (text-based, for initial practice)
+
+### 📊 Table: Departments
+- dept_id (Primary Key)
+- dept_name
+
+---
+
+## 🔗 Relationship
+
+Employees.department_id → Departments.dept_id
+
+---
+
+## 🧾 Key SQL Operations Practiced
+
+- Create multiple tables
+- Insert records into related tables
+- Modify table structure using ALTER
+- Update records to establish relationships
+- Retrieve data using JOINs
+- Perform aggregations using GROUP BY
+- Filter grouped data using HAVING
+- Sort and limit results
+
+---
+
+## ❓ Practice Questions Solved
+
+- Create Departments table
+- Insert department records
+- Add department_id column to Employees
+- Assign department IDs to employees
+- Display employee name with department name
+- Show all employees even without matching departments (LEFT JOIN)
+- Count employees in each department
+- Calculate average salary per department
+- Filter departments with high average salary
+- Find department with highest average salary
+
+---
+
+## 🎯 Learning Outcome
+
+By completing this session, I improved my ability to:
+- Work with multiple related tables
+- Understand and implement JOIN operations
+- Analyze grouped data using aggregate functions
+- Apply real-world relational database concepts
+- Debug JOIN issues based on foreign key mismatches
+
+---
+
 
 ## 👩‍💻 Author
 Bisma Saleem  
-SQL Practice Journey 🚀
+SQL Revision & Polishing Journey 🚀
